@@ -5,8 +5,9 @@ import Testimonials from './pages/Testimonials';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import Footer from './pages/Footer';
 
-export default function PortfolioContainer() {
+function Portfolio() {
   const [currentPage, setCurrentPage] = useState('About');
 
   const renderPage = () => {
@@ -25,12 +26,17 @@ export default function PortfolioContainer() {
     return <Contact />;
   };
 
-  const handlePageChange = (page) => setCurrentPage(page);
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+  }
 
   return (
     <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+      <Footer />
     </div>
   );
 }
+
+export default Portfolio;

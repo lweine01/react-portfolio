@@ -5,7 +5,8 @@ const styles = {
   headerStyle: {
     background: 'black',
     paddingLeft: '30px',
-    padding: '15px,'
+    paddingRight: '30px',
+    verticalAlign: 'center',
   },
   navbarStyle: {
     justifyContent: 'flex-end',
@@ -17,15 +18,13 @@ const styles = {
   }
 };
 
-// We use JSX curly braces to evaluate the style object
-
 function Header({ currentPage, handlePageChange }) {
   return (
     <header style={styles.headerStyle} className="header row">
-      <h1 className="col">Laura Weiner</h1>
+      <h1 className="col m-2">Laura Weiner</h1>
       <nav style={styles.navbarStyle} className="navbar col">
         <a
-          href="#about"
+          href="#About"
           style={styles.aStyle}
           onClick={() => handlePageChange('About')}
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
@@ -33,15 +32,15 @@ function Header({ currentPage, handlePageChange }) {
           About Me
         </a>
         <a
-          href="#testimonials"
+          href="#Testimonials"
           style={styles.aStyle}
-          onClick={() => handlePageChange('Testimonials')}
+          onClick={(event) => handlePageChange('Testimonials')}
           className={currentPage === 'Testimonials' ? 'nav-link active' : 'nav-link'}
         >
           Testimonials
         </a>
         <a
-          href="#projects"
+          href="#Projects"
           style={styles.aStyle}
           onClick={() => handlePageChange('Projects')}
           className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
@@ -49,7 +48,7 @@ function Header({ currentPage, handlePageChange }) {
           Projects
         </a>
         <a
-          href="#resume"
+          href="#Resume"
           style={styles.aStyle}
           onClick={() => handlePageChange('Resume')}
           className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
@@ -57,7 +56,7 @@ function Header({ currentPage, handlePageChange }) {
           Resume
         </a>
         <a
-          href="#contact"
+          href="#Contact"
           style={styles.aStyle}
           onClick={() => handlePageChange('Contact')}
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
