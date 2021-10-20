@@ -1,24 +1,6 @@
-import React from 'react';
-import Header from './components/Header';
-import Project from './components/Project';
-import Footer from './components/Footer';
+import React from "react";
+import Portfolio from "./components/Portfolio";
 
-const styles = {
-  divStyle: {
-    // maxWidth: '900px',
-    // justifyContent: 'center',
-    color: 'white',
-  }
-}
-
-function App() {
-  return (
-    <div style ={styles.divStyle}>
-      <Header />
-      <Project />
-      <Footer />
-    </div>
-  );
-}
+const App = () => <Portfolio />;
 
 export default App;
