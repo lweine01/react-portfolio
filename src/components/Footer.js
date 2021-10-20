@@ -2,10 +2,8 @@ import React from 'react';
 
 function Footer() {
     return (
-      <footer>
-        <a href="/">Welcome</a>
-      </footer>
+        <footer></footer>
     );
-  }
-  
-  export default Footer;
+}
+
+export default Footer;
