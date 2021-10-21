@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import Resume from '../assets/pdf/resume.pdf';
 
 const styles = {
   headerStyle: {
@@ -20,11 +21,11 @@ const styles = {
 
 function Header({ currentPage, handlePageChange }) {
   return (
-    <header style={styles.headerStyle} className="header row">
-      <h1 className="col m-2">Laura Weiner</h1>
-      <nav style={styles.navbarStyle} className="navbar col">
+    <header style={styles.headerStyle} className='header row'>
+      <h1 className='col m-2'>Laura Weiner</h1>
+      <nav style={styles.navbarStyle} className='navbar col'>
         <a
-          href="#About"
+          href='#About'
           style={styles.aStyle}
           onClick={() => handlePageChange('About')}
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
@@ -32,7 +33,7 @@ function Header({ currentPage, handlePageChange }) {
           About Me
         </a>
         <a
-          href="#Testimonials"
+          href='#Testimonials'
           style={styles.aStyle}
           onClick={(event) => handlePageChange('Testimonials')}
           className={currentPage === 'Testimonials' ? 'nav-link active' : 'nav-link'}
@@ -40,7 +41,7 @@ function Header({ currentPage, handlePageChange }) {
           Testimonials
         </a>
         <a
-          href="#Projects"
+          href='#Projects'
           style={styles.aStyle}
           onClick={() => handlePageChange('Projects')}
           className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
@@ -48,20 +49,19 @@ function Header({ currentPage, handlePageChange }) {
           Projects
         </a>
         <a
-          href="#Resume"
-          style={styles.aStyle}
-          onClick={() => handlePageChange('Resume')}
-          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-        >
-          Resume
-        </a>
-        <a
-          href="#Contact"
+          href='#Contact'
           style={styles.aStyle}
           onClick={() => handlePageChange('Contact')}
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
           Contact
+        </a>
+        <a
+          href={Resume}
+          style={styles.aStyle}
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
         </a>
       </nav>
     </header>

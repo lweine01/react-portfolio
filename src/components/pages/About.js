@@ -29,12 +29,12 @@ function About() {
                 <p>Some of my skills include JavaScript,  React, HTML, CSS, NodeJS, MySQL, MongoDB, API’s, OOP, Test Driven Development, and Model View Controller</p>
                 <p>Fun facts: I am born and raised in Charlotte, NC, I also enjoy swimming, weight training, hiking and wine tasting with friends. </p>
                 <p>
-                <a href='https://www.linkedin.com/in/laurarweiner/' style ={styles.icon}>
-                <i class='fab fa-linkedin fa-4x'></i>
-                </a>
-                <a href='https://github.com/lweine01' style ={styles.icon}>
-                <i class='fab fa-github-square fa-4x'></i>
-                </a>
+                    <a href='https://www.linkedin.com/in/laurarweiner/' style={styles.icon}>
+                        <i class='fab fa-linkedin fa-4x'></i>
+                    </a>
+                    <a href='https://github.com/lweine01' style={styles.icon}>
+                        <i class='fab fa-github-square fa-4x'></i>
+                    </a>
                 </p>
 
             </div>
