@@ -3,7 +3,6 @@ import Header from './Header';
 import About from './pages/About';
 import Testimonials from './pages/Testimonials';
 import Projects from './pages/Projects';
-import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Footer from './pages/Footer';
 
@@ -19,9 +18,6 @@ function Portfolio() {
     }
     if (currentPage === 'Projects') {
       return <Projects />;
-    }
-    if (currentPage === 'Resume') {
-      return <Resume />;
     }
     return <Contact />;
   };
