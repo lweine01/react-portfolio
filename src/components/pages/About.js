@@ -23,11 +23,11 @@ const styles = {
 function About() {
     return (
         <section style={styles.sectionStyle} className='row'>
-            <div className='col-8'>
+            <div className='col-lg-8 col-sm-12'>
                 <h3>Hello there, I'm Laura.</h3>
                 <p>Welcome to my portfolio! I am a motivated and energetic full stack web developer who enjoys a challenge, problem solving and logical thinking. Quickly able to learn and retain information as shown through excelling at the  UNCC Coding Bootcamp. I have a diverse workplace experience in Human Resources and Hospital Administration with proven skills in leadership and collaboration.</p>
-                <p>Some of my skills include JavaScript,  React, HTML, CSS, NodeJS, MySQL, MongoDB, API’s, OOP, Test Driven Development, and Model View Controller</p>
-                <p>Fun facts: I am born and raised in Charlotte, NC, I also enjoy swimming, weight training, hiking and wine tasting with friends. </p>
+                <p>Some of my technical skills include JavaScript,  React, MERN, HTML, CSS, NodeJS, MySQL, MongoDB, API’s, OOP, Test Driven Development, Model View Controller, and Git flow.</p>
+                <p>Fun facts: I am born and raised in Charlotte, NC, I enjoy swimming, weight training, hiking and wine tasting with friends. </p>
                 <p>
                     <a href='https://www.linkedin.com/in/laurarweiner/' style={styles.icon}>
                         <i class='fab fa-linkedin fa-4x'></i>
@@ -38,7 +38,7 @@ function About() {
                 </p>
 
             </div>
-            <div className='col-4'>
+            <div className='col-lg-4 col-sm-12 align-content-center'>
                 <img src={selfie} alt="selfie of me" style={styles.selfie} />
             </div>
         </section>

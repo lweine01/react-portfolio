@@ -5,6 +5,8 @@ import Password from '../../assets/images/password.png';
 import Offline from '../../assets/images/offline.png';
 import Portfolio from '../../assets/images/portfolio.png';
 import Team from '../../assets/images/team.png';
+import National from '../../assets/images/national.png';
+
 
 const styles = {
     projcard: {
@@ -29,6 +31,21 @@ function Projects() {
     return (
         <section className='container'>
             <div className='row'>
+            <div className='col-lg-4 col-md-6 col-sm-12'>
+                    <div className='card' style={styles.projcard}>
+                        <img src={National} class='card-img-top' alt='National Park Roadtrip Screenshot' />
+                        <div className="card-body">
+                            <h5 className="card-title">National Park Roadtrip</h5>
+                            <p className="card-text" style={styles.pStyle}>This was a collabrative project where we created a full MERN stack application where the user can plan a national park roadtrip.</p>
+                            <a href='https://github.com/AlexWilsonNC/national-roadtrip' style={styles.icon}>
+                                <i className='fab fa-github-square fa-4x'></i>
+                            </a>
+                            <a href='https://arcane-hamlet-34907.herokuapp.com/' style={styles.icon}>
+                                <i className='fab fas fa-link fa-4x'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <div className='col-lg-4 col-md-6 col-sm-12'>
                     <div className='card' style={styles.projcard}>
                         <img src={Portfolio} class='card-img-top' alt='Original portfolio screenshot' />
@@ -84,21 +101,6 @@ function Projects() {
                                 <i className='fab fa-github-square fa-4x'></i>
                             </a>
                             <a href='https://ashbylb.github.io/dinner-drink-decisions/' style={styles.icon}>
-                                <i className='fab fas fa-link fa-4x'></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div className='col-lg-4 col-md-6 col-sm-12'>
-                    <div className='card' style={styles.projcard}>
-                        <img src={Password} class='card-img-top' alt='Password Generator Screenshot' />
-                        <div className="card-body">
-                            <h5 className="card-title">Password Generator</h5>
-                            <p className="card-text" style={styles.pStyle}>Using a JavaScript this application allows the user to generate a secure password following a series of prompts.</p>
-                            <a href='https://github.com/lweine01/JavaScript-password-generator' style={styles.icon}>
-                                <i className='fab fa-github-square fa-4x'></i>
-                            </a>
-                            <a href='https://lweine01.github.io/JavaScript-password-generator/' style={styles.icon}>
                                 <i className='fab fas fa-link fa-4x'></i>
                             </a>
                         </div>

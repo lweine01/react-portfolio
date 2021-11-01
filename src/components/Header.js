@@ -48,14 +48,14 @@ function Header({ currentPage, handlePageChange }) {
         >
           Projects
         </a>
-        <a
+        {/* <a
           href='#Contact'
           style={styles.aStyle}
           onClick={() => handlePageChange('Contact')}
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
           Contact
-        </a>
+        </a> */}
         <a
           href={Resume}
           style={styles.aStyle}

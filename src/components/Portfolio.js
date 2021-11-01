@@ -4,7 +4,6 @@ import About from './pages/About';
 import Testimonials from './pages/Testimonials';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
-import Footer from './pages/Footer';
 
 function Portfolio() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -19,7 +18,7 @@ function Portfolio() {
     if (currentPage === 'Projects') {
       return <Projects />;
     }
-    return <Contact />;
+    // return <Contact />;
   };
 
   const handlePageChange = (page) => {
@@ -30,7 +29,6 @@ function Portfolio() {
     <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
-      <Footer />
     </div>
   );
 }
