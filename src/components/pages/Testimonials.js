@@ -31,6 +31,17 @@ function Testimonials() {
       </div>
       <div className='card' style={styles.test}>
         <p>
+          "I had the pleasure of working with Laura for 3 years at Carolinas Rehabilitation. She is incredibly hard working, self-motivated and demonstrated excellence in collaborating with multidisciplinary teams in a very dynamic setting. Laura took on a leadership role, managing a team of support staff, and served on several committees to improve the culture and mission of our facility. She is always ready to take on a new challenge and is adept at thinking outside of the box to find creative solutions. Interpersonally, Laura is positive and upbeat, always a joy to work with."
+        </p>
+        <p>
+          – Jennifer Myatt LCMHC
+        </p>
+        <a href='https://www.linkedin.com/in/jennifer-myatt-245143a0/' style={styles.icon}>
+          <i class='fab fa-linkedin fa-4x'></i>
+        </a>
+      </div>
+      <div className='card' style={styles.test}>
+        <p>
           "My name is Steven Eddings, my position while working with Ms. Laura Weiner over the course of 12 years was President and General Manger of Carolina Pool Management Northside, Inc.  Our business included operation and management of commercial swimming pools.  Our customers included neighborhood HOA swim clubs, city/county aquatic facilities, and Country Club swimming facilities.  We provided lifeguard staffing, gate attendants, and daily pool cleaning services.</p>
         <p>
           Laura, started work at the young age of 15 as a lifeguard for CPM.  After approximately 4 years working as a lifeguard/gate attendant we had a position for Human Resources open up.  Laura stepped right in and took ownership of that office and position.  Her main responsibilities included the hiring, training, and scheduling of about 200 seasonal staff each year.  She was very organized, personable, and performed her job with very little oversite.  We could always count on her to get the job done.  It was a pleasure getting to know Laura and working alongside her over the many years.
