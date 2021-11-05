@@ -35,6 +35,9 @@ function About() {
                     <a href='https://github.com/lweine01' style={styles.icon}>
                         <i class='fab fa-github-square fa-4x'></i>
                     </a>
+                    <a href='mailto: laurarweiner@gmail.com' style={styles.icon}>
+                        <i class='fas fa-envelope-square fa-4x'></i>
+                    </a>
                 </p>
 
             </div>
