@@ -65,28 +65,6 @@ function Testimonials() {
           <i class='fab fa-linkedin fa-4x'></i>
         </a>
       </div>
-      <div className='card' style={styles.test}>
-        <p>
-          "Amazing work Laura! Absolutely hit the nail on the head with this assignment regarding the requirements. Your table of contents is fully functional, your tutorial includes sections that correspond to each of the components that make up the regex that you chose including examples, code snippets, and more than one sentence describing it. Keep up the great work!"
-        </p>
-        <p>
-          -UNCC Bootcamp Central Grader
-        </p>
-        <a href='https://gist.github.com/lweine01/2120c4bc70d3421ed7fbd08299569e9e#the-or-operator' style={styles.icon}>
-          <i class='fab fa-github-square fa-4x'></i>
-        </a>
-      </div>
-      <div className='card' style={styles.test}>
-        <p>
-          "Awesome work deploying this application and rendering all your HTML views correctly. Good job doing all the API routes; I was able to create a new workout, add new workouts, view data on both the home and stats page. I like how you used the aggregate to calculate the totalDuration. Your README is also well done with a description, screenshot and link to deployed application. Keep up the good work!"
-        </p>
-        <p>
-          -UNCC Bootcamp Central Grader
-        </p>
-        <a href='https://github.com/lweine01/workout-tracker' style={styles.icon}>
-          <i class='fab fa-github-square fa-4x'></i>
-        </a>
-      </div>
     </section>
 
 
